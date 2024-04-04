@@ -3,7 +3,7 @@ package calculator;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("과연 바뀔까요?");
+		System.out.println("this branch is feature/calculate");
 		// 주석 추가
 
 	}
