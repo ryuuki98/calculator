@@ -43,16 +43,16 @@ public class Calculate {
 			
 			if(x.equals("+")) {
 				int c = add(a,b);
-				System.out.printf("%d %s %d = %d",a,x,b,c);
+				System.out.printf("%d %s %d = %d\n",a,x,b,c);
 			}else if(x.equals("-")) {
 				int c = subtract(a,b);
-				System.out.printf("%d %s %d = %d",a,x,b,c);
+				System.out.printf("%d %s %d = %d\n",a,x,b,c);
 			}else if(x.equals("*")) {
 				int c = multiply(a,b);
-				System.out.printf("%d %s %d = %d",a,x,b,c);
+				System.out.printf("%d %s %d = %d\n",a,x,b,c);
 			}else if(x.equals("/")) {
 				int c = divide(a,b);
-				System.out.printf("%d %s %d = %d",a,x,b,c);
+				System.out.printf("%d %s %d = %d\n",a,x,b,c);
 			}
 		}
 	}
