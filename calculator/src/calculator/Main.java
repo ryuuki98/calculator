@@ -3,7 +3,7 @@ package calculator;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		System.out.println("과연 바뀔까요?");
 
 	}
 
