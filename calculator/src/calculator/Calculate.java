@@ -13,6 +13,13 @@ public class Calculate {
 		return a * b;
 	}
 
+	public int divide(int a, int b) {
+		if (b == 0) {
+			System.out.println("0으로 나눌순 없습니다.");
+			return 0;
+		}
+		return a / b;
+	}
 
 	
 }
